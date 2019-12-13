@@ -19,14 +19,11 @@ This has helped me run AB tests, spend less time gathering data and focus more t
 * Data mining
 
 Contents
-* [Authentication]()
-* [Creating Reports]()
-* [Reports with filters]()
-* [Making filters]()
-* [Reports with segments]()
-* [Finding segments]()
-* [Creating segments]()
-* [Fields in reporting queries]()
+* [Authentication](https://github.com/tobmcv/gar-reporting#authentication)
+* [Creating Reports](https://github.com/tobmcv/gar-reporting#creating-reports)
+* [Reports with filters](https://github.com/tobmcv/gar-reporting#example-query-for-reporting-with-filters)
+* [Reports with segments](https://github.com/tobmcv/gar-reporting#example-query-for-reporting-with-segments)
+* [Fields in reporting queries](https://github.com/tobmcv/gar-reporting#fields-in-example-requests)
 
 ## **Authentication**
 
