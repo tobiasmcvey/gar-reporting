@@ -18,7 +18,7 @@ This has helped me run AB tests, spend less time gathering data and focus more t
 * ETL jobs for a database
 * Data mining
 
-Contents
+**Contents**
 * [Authentication](https://github.com/tobmcv/gar-reporting#authentication)
 * [Creating Reports](https://github.com/tobmcv/gar-reporting#creating-reports)
 * [Reports with filters](https://github.com/tobmcv/gar-reporting#example-query-for-reporting-with-filters)
@@ -64,6 +64,7 @@ mypage_usage <- google_analytics(ga_tableid,
 This lets us download a table consisting of 2 metrics: Unique Pageviews and Unique Events, and the dimension Page Path. We also use a filter to hone in a specific webpage. Finally we add the anti_sample argument to ensure googleAnalyticsR tries to retrieve a complete dataset before downloading it to R.
 
 **Making filters**
+
 I highly recommend using filters in your report to speed up the download of your dataset and to reduce the risk of sampling. Google Analytics will often let you get more data without sampling if you just filter the dataset thoroughly in advance. If you use filters in segments this is less likely to work.
 
 Simply assign a variable and use it in your query object. In this example we look at page path, which requires the URI only, without the hostname and protocol.
