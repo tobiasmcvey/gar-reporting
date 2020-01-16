@@ -129,3 +129,41 @@ These are the fields used in the example queries
 
 ## **To Do**
 Example code for running AB tests
+
+
+## SessionInfo
+
+```
+> sessionInfo()
+R version 3.6.1 (2019-07-05)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Catalina 10.15.2
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] googleAnalyticsR_0.6.0 jsonlite_1.6          
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.2        pillar_1.4.2      compiler_3.6.1    googleAuthR_1.0.0
+ [5] remotes_2.1.0     prettyunits_1.0.2 tools_3.6.1       testthat_2.2.1   
+ [9] pkgload_1.0.2     zeallot_0.1.0     digest_0.6.20     pkgbuild_1.0.5   
+[13] memoise_1.1.0     gargle_0.3.1      tibble_2.1.3      lifecycle_0.1.0  
+[17] pkgconfig_2.0.2   rlang_0.4.2       cli_1.1.0         rstudioapi_0.10  
+[21] curl_4.0          withr_2.1.2       dplyr_0.8.3       httr_1.4.1       
+[25] askpass_1.1       desc_1.2.0        fs_1.3.1          vctrs_0.2.1      
+[29] htmlwidgets_1.3   devtools_2.2.0    rprojroot_1.3-2   DT_0.8           
+[33] tidyselect_0.2.5  glue_1.3.1        R6_2.4.0          processx_3.4.1   
+[37] sessioninfo_1.1.1 tidyr_1.0.0       purrr_0.3.3       callr_3.3.1      
+[41] magrittr_1.5      usethis_1.5.1     backports_1.1.4   ps_1.3.0         
+[45] htmltools_0.3.6   ellipsis_0.2.0.1  assertthat_0.2.1  openssl_1.4.1    
+[49] crayon_1.3.4  
+```
