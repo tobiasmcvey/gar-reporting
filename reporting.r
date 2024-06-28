@@ -1,3 +1,9 @@
+# install.packages("renv")
+# renv::init()
+# renv::install("googleAnalyticsR")
+# renv::snapshot()
+renv::restore()
+
 library(googleAnalyticsR) # for working with Google Analytics
 library(jsonlite) # for our json files
 
