@@ -2,3 +2,5 @@
 gar-creds.json
 ga-account.json
 queries.r
+.Rproj.user
+renv/
